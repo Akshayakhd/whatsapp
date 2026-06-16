@@ -15,7 +15,8 @@ class Chat extends StatelessWidget {
           ),
         ),
         actions: [
-          Icon(Icons.currency_rupee_sharp),SizedBox(width: 5,),
+          Icon(Icons.currency_rupee_rounded),
+          SizedBox(width: 5),
           Icon(Icons.camera_alt_outlined),
           PopupMenuButton(
             itemBuilder: (context) => [
