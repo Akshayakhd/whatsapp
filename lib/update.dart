@@ -5,6 +5,28 @@ class Update extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          "Updates",
+          style: TextStyle(
+            color: const Color.fromARGB(255, 0, 0, 0),
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        actions: [
+          Icon(Icons.search),
+          PopupMenuButton(
+            itemBuilder: (context) => [
+              PopupMenuItem(child: Text(("Create channel"))),
+              PopupMenuItem(child: Text(("Status privacy"))),
+              PopupMenuItem(child: Text(("Starred"))),
+              PopupMenuItem(child: Text(("Ad preferences"))),
+              PopupMenuItem(child: Text(("Settings"))),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }
