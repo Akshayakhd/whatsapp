@@ -66,7 +66,8 @@ class Chat extends StatelessWidget {
               hintText: "Ask Meta AI or Search",
             ),
           ),
-          SingleChildScrollView(scrollDirection: Axis.horizontal,
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
             child: Row(
               children: [
                 Padding(
@@ -142,7 +143,7 @@ class Chat extends StatelessWidget {
             leading: CircleAvatar(
               radius: 40,
               backgroundImage: NetworkImage(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NZBZC3Vj49HlZegLumrp6tYSM4QcU9ISYK-5WCVWQFJ_GLfbSXPIqW4&s=10",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIo7rQXThBYQAp9MTR4Std3AH6My_N0pveVi0ANgzmSCyvKw-SYCTd1G0&s=10",
               ),
             ),
             title: Text("Amma"),

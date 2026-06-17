@@ -19,6 +19,38 @@ class Communities extends StatelessWidget {
           ),
         ],
       ),
+      body: ListView(
+        children: [
+          ListTile(
+            title: Text(
+              "New community",
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            leading: Stack(
+              children: [
+                Container(
+                  height: 55,
+                  width: 55,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.grey,
+                  ),
+                  child: Icon(Icons.groups, color: Colors.white),
+                ),
+                Positioned(
+                  right: 0,
+                  bottom: 0,
+                  child: CircleAvatar(
+                    radius: 10,
+                    backgroundColor: Colors.green,
+                    child: Icon(Icons.add, size: 14, color: Colors.white),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

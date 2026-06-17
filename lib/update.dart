@@ -52,7 +52,12 @@ class Update extends StatelessWidget {
                   child: Stack(
                     children: [
                       CircleAvatar(
-                        backgroundColor: const Color.fromARGB(255, 57, 107, 59),
+                        backgroundColor: const Color.fromARGB(
+                          255,
+                          144,
+                          152,
+                          144,
+                        ),
                       ),
                       Positioned(
                         left: 18,
@@ -79,15 +84,15 @@ class Update extends StatelessWidget {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             image: NetworkImage(
-                              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NZBZC3Vj49HlZegLumrp6tYSM4QcU9ISYK-5WCVWQFJ_GLfbSXPIqW4&s=10",
+                              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFZRw61hmRNpox4YAfxdu0oeMisgYWg5vphFO_kZL3Ng&s=10",
                             ),
-                            fit: BoxFit.fill,
+                            fit: BoxFit.cover,
                           ),
                         ),
                       ),
                       CircleAvatar(
                         backgroundImage: NetworkImage(
-                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NZBZC3Vj49HlZegLumrp6tYSM4QcU9ISYK-5WCVWQFJ_GLfbSXPIqW4&s=10",
+                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIo7rQXThBYQAp9MTR4Std3AH6My_N0pveVi0ANgzmSCyvKw-SYCTd1G0&s=10",
                         ),
                       ),
                     ],
@@ -105,15 +110,16 @@ class Update extends StatelessWidget {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             image: NetworkImage(
-                              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NZBZC3Vj49HlZegLumrp6tYSM4QcU9ISYK-5WCVWQFJ_GLfbSXPIqW4&s=10",
+                              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnJjnKNeLvtwfvYS_ySA_w9WpIa1hqSLNH3NBt_yi9g&s=10",
                             ),
-                            fit: BoxFit.fill,
+
+                            fit: BoxFit.cover,
                           ),
                         ),
                       ),
                       CircleAvatar(
                         backgroundImage: NetworkImage(
-                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NZBZC3Vj49HlZegLumrp6tYSM4QcU9ISYK-5WCVWQFJ_GLfbSXPIqW4&s=10",
+                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfJM-rPXF8DK0x842MHtWR-q1Cuj-lUEbEeTCxnW4yEgtt5lgYp84QmmU0&s=10",
                         ),
                       ),
                     ],
