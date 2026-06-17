@@ -18,10 +18,7 @@ class _WhatsappState extends State<Whatsapp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: ElevatedButton(
-        onPressed: () {},
-        child: Icon(Icons.add),
-      ),
+    
       backgroundColor: Colors.white,
       body: screens[index],
       bottomNavigationBar: BottomNavigationBar(
